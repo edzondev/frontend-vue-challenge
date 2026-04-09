@@ -53,8 +53,8 @@ const onSubmit = handleSubmit(async (values) => {
         <Field :data-invalid="!!errors.length">
           <FieldLabel for="form-email"> Correo electrónico </FieldLabel>
           <Input
-            type="email"
             id="form-email"
+            type="email"
             v-bind="field"
             placeholder="Escribe tu correo"
             autocomplete="off"
@@ -67,8 +67,8 @@ const onSubmit = handleSubmit(async (values) => {
         <Field :data-invalid="!!errors.length">
           <FieldLabel for="form-password"> Contraseña </FieldLabel>
           <Input
-            type="password"
             id="form-password"
+            type="password"
             v-bind="field"
             placeholder="Escribe tu contraseña"
             autocomplete="off"
